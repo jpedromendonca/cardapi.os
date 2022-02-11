@@ -1,0 +1,17 @@
+.ItemMenu {
+  color: #fff;
+  padding: 20px;
+  background-color: #454236;
+}
+.item {
+  background-color: #454236;
+  color: #fff;
+  border: none;
+  transition-duration: 0.4s;
+  font-size: 3vh;
+}
+
+.item:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
