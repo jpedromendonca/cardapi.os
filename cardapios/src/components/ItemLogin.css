@@ -1,0 +1,18 @@
+.ListaLogin {
+  color: #fff;
+  padding: 20px;
+  background-color: #454236;
+}
+.itemLogin {
+  background-color: #454236;
+  color: #fff;
+  border: none;
+  transition-duration: 0.4s;
+  font-size: 3vh;
+  margin: 15px 15px 0px 0px;
+}
+
+.itemLogin:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
