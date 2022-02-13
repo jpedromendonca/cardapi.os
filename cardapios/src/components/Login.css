@@ -7,7 +7,7 @@
 
 .MenuLogin {
     background-color: #454236;
-    width: 30%;
+    width: calc(12em + 12vw);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,14 +18,14 @@
 .TituloLogin {
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 5vh;
-    height: 10vh;
+    font-size: calc(1.5em + 1vw); /* RESPONSIVIDADE */
+    height: calc(2em + 2vw);
     text-align: center;
     color: #a09f9c;
 }
 
 .FormularioLogin {
-    padding: 25px;
+    padding: 10px;
     background-color: #fff;
     width: 70%;
     height: 100vh;
@@ -35,8 +35,8 @@
     color: #fff;
 }
 
-p {
-    padding-left: 15px;
+h3 {
+    padding-left: 25px;
     color: #454236;
     font-size: 3vh;
 }
@@ -57,13 +57,15 @@ label{
 }
 
 .email {
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
+    min-width: 320px;
 }
 
 .senha {
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
+    min-width: 320px;
 }
 
 ::placeholder{
@@ -74,11 +76,104 @@ label{
 }
 
 .entrar {
-    margin-top: 15px;
     background-color: #454236;
     color: #fff;
     font-size: 2.25vh;
     padding: 5px;
     width: 20%;
+    min-width: 100px;
+    margin-top: 35px;
     box-shadow: 2px 2px 2px gray;
+}
+
+.iniciarCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 320px;
+}
+
+.iniciarCadastro p {
+    position: block;
+    min-width: 320px;
+    margin: 2px;
+    font-size: 2.2vh;
+}
+
+p {
+    color: #a09f9c;
+    font-size: 2vh;
+    font-style: italic;
+    margin: 0;
+}
+
+#alternativa {
+    color: #454236;
+    font-size: 2.5vh;
+    margin: 10px;
+    padding: 10px;
+    min-width: 320px;
+}
+
+.loginAlternativo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    min-width: 320px;
+}
+
+.loginRedeSocial {
+    display: block;
+    border: 0px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 0;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.linkCadastro:hover {
+    background-color: #518f9d;
+    color: white;
+    font-display: bold;
+    min-width: 170px;
+}
+
+
+/* RESPONSIVIDADE MOBILE */
+
+@media (max-width:600px) {
+    .Login {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .MenuLogin {
+        display: none;
+    }
+
+    .Formulario {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .FormularioLogin {
+        height: 100%;
+        min-width: 320px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }

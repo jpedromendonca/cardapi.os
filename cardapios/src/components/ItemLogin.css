@@ -8,7 +8,7 @@
   color: #fff;
   border: none;
   transition-duration: 0.4s;
-  font-size: 3vh;
+  font-size: calc(0.5em + 1vw); /* RESPONSIVIDADE */
   margin: 15px 15px 0px 0px;
 }
 
