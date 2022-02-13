@@ -4,28 +4,34 @@ import React from 'react';
 
 function Login() {
   return (
-    <div className='Login'>
-
+    <div className="Login">
       <div className="MenuLogin">
         <a className="TituloLogin">CARDÁPI.OS </a>
         <ItemLogin name="Quem somos" />
         <ItemLogin name="Seja um parceiro" />
       </div>
-    
+
       <div className="FormularioLogin">
 
         <h3>Faça seu login</h3>
         
         <form className='Formulario'>
 
-          <div className='email'>
+        <form className="Formulario">
+          <div className="email">
             <label for="email"> E-MAIL </label>
             <input type="email" name="email" id="email" placeholder="Insira o email cadastrado" required />
           </div>
 
-          <div className='senha'>
+          <div className="senha">
             <label for="senha"> SENHA </label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha" required/>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Digite sua senha"
+              required
+            />
           </div>
 
           <p id='alternativa'>OU</p>
@@ -46,7 +52,6 @@ function Login() {
       </div>
     </div>
   );
-  
 }
 
-export default Login; 
+export default Login;
