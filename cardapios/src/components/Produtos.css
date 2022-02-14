@@ -1,0 +1,22 @@
+.ImgProduto {
+  width: 128px;
+  height: 128px;
+}
+.Produtos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.Descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.NomeProduto {
+  padding: 10px;
+}
+.DetalhesProduto {
+  padding: 10px;
+  font-size: 3vh;
+}

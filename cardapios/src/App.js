@@ -9,7 +9,7 @@ function App() {
       <header className="App-header ">CARDÁPI.OS</header>
 
       <main>
-        <Login />
+        <Menu />
       </main>
 
       <footer className="App-footer">
