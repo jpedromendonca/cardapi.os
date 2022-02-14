@@ -1,12 +1,13 @@
 import './Login.css';
 import ItemLogin from './ItemLogin';
 import React from 'react';
+//import Menu from './Menu';
+//import Cadastro from './Cadastro';
 
 function Login() {
   return (
     <div className="Login">
       <div className="MenuLogin">
-        <a className="TituloLogin">CARDÁPI.OS </a>
         <ItemLogin name="Quem somos" />
         <ItemLogin name="Seja um parceiro" />
       </div>
@@ -14,8 +15,6 @@ function Login() {
       <div className="FormularioLogin">
 
         <h3>Faça seu login</h3>
-        
-        <form className='Formulario'>
 
         <form className="Formulario">
           <div className="email">
@@ -42,7 +41,7 @@ function Login() {
 
           <div className='iniciarCadastro'>
             <p>Ainda não possui cadastro?</p>
-            <p className='linkCadastro'>Cadastre-se aqui!</p>
+            <p className='linkCadastro' >Cadastre-se aqui!</p>
             <button className='entrar'>ENTRAR</button>
           </div>
 
