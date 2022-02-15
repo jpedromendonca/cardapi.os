@@ -1,3 +1,6 @@
+import './Cadastro.css';
+import ItemMenu from './ItemMenu';
+
 function Cadastro() {
   return (
     <div class="col-1">
@@ -6,10 +9,11 @@ function Cadastro() {
             <img src="imagens/logo.jpeg"/>
         </div>
         <div class="menu">
-            <li><a href="#">Hambúrguers</a></li>
-            <li><a href="#">Bebidas não alcoólicas</a></li>
-            <li><a href="#">Bebidas alcoólicas</a></li>
-            <li><a href="#">Porções e molhos</a></li>
+            <ItemMenu name="Hambúrguer" />
+            <ItemMenu name="Porções e molhos" />
+            <ItemMenu name="Sobremesas" />
+            <ItemMenu name="Bebidas Soft" />
+            <ItemMenu name="Bebida Alcóolica" />
         </div>
     </div> 
     <div class="col-2">
