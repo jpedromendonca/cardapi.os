@@ -1,11 +1,10 @@
 .ListaLogin {
   color: #fff;
   padding: 20px;
-  background-color: #454236;
 }
 .itemLogin {
-  background-color: #454236;
   color: #fff;
+  background-color: #e65100;
   border: none;
   transition-duration: 0.4s;
   font-size: calc(0.5em + 1vw); /* RESPONSIVIDADE */

@@ -6,7 +6,7 @@
 }
 
 .MenuLogin {
-    background-color: #454236;
+    background-color: #e65100;
     width: calc(12em + 12vw);
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@
     padding-top: 2.5%;
     background-color: #fff;
     width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -133,6 +134,8 @@ p {
     border: 0px;
     border-radius: 100%;
     background-color: white;
+    min-height: 50px;
+    min-width: 50px;
     padding: 0;
 }
 

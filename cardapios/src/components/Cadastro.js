@@ -5,10 +5,6 @@ function Cadastro() {
   return (
     <div>
       <div class="col-1">
-        <div class="logo-nome">
-          <h1>Cardap.io</h1>
-          <img src="imagens/logo.jpeg" />
-        </div>
         <div class="menu">
           <ItemMenu name="Hambúrguer" />
           <ItemMenu name="Porções e molhos" />
