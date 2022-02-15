@@ -30,6 +30,11 @@ const Menu = () => {
             nomeProduto="Teste"
             detalhes="testinho"
           />
+          <Produtos
+            imagem="./logo.png"
+            nomeProduto="Teste"
+            detalhes="testinho"
+          />
         </div>
       </div>
     </div>
