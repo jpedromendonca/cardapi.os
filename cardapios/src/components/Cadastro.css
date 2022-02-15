@@ -40,15 +40,9 @@ img{
     text-align: center;
 }
 
-.menu a{
+.menu{
     color: rgb(243, 243, 243);
 }
-
-li{
-    margin: 50px 0 0 0;
-}
-
-
 
 .col-2 h1{
     margin-top: 40px;
@@ -133,18 +127,11 @@ li{
         height: 100%;
     }
 
-    .menu li{ 
+    .menu{ 
         font-size: 2vh;
         text-decoration: none;
     }
-    
-    li a{
-        color: rgb(243, 243, 243);
-    }
 
-    li{
-        margin: 5vh 0 0 0;
-    }
     
     .col-2 h1{
         margin-top: 25px;
