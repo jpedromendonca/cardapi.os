@@ -1,23 +1,44 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Menu from './components/Menu';
-import { Route, Link } from 'react-router-dom';
 import Login from './components/Login';
 import Cadastro from './components/Cadastro';
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header ">CARDÁPI.OS</header>
+    <div>
+      <nav
+        className="orange darken-4
+"
+      >
+        <ul>
+          <li>
+            <Link to="/">CARDÁPI.OS</Link>
+          </li>
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
+          <li>
+            <Link to="/cadastro">Cadastro</Link>
+          </li>
+        </ul>
+      </nav>
 
-      <main>
-        <Menu />
-      </main>
-
-      <footer className="App-footer">
-        <label className="Titulo">Login</label>
-        <label className="Titulo">Cadastro</label>
+      <Routes>
+        <Route path="/" element={<Menu />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+      </Routes>
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">
+              More Links
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );
 }
-
-export default App;
